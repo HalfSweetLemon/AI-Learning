@@ -31,11 +31,12 @@ const template = `# 第 ${nextDay} 天
 
 > ${currentDate}
 
-## 学习的知识点
+## 项目进展
 
-## 遇到的问题和解决方案
+> 阶段一：技术方案调研
 
-## 心得体会
+## 学习笔记
+
 `;
 
 fs.writeFileSync(newFilePath, template);
